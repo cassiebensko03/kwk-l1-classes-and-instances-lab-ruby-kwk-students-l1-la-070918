@@ -7,9 +7,9 @@ class Dog
    end
 end
 
-dog_one = Dog.new(fido)
-dog_two = Dog.new(lassie)
-dog_three = Dog.new(snoopy)
+dog_one = Dog.new("fido")
+dog_two = Dog.new("lassie")
+dog_three = Dog.new("snoopy")
 
 
 puts dog_one.name 
